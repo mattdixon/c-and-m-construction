@@ -1,0 +1,33 @@
+node_modules
+.pnpm-store
+dist
+build
+.next
+.turbo
+coverage
+*.tsbuildinfo
+
+# env
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# auth state (captured Playwright storage state — local only, uploaded to Render as secret)
+auth-state.json
+auth-state-*.json
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# os
+.DS_Store
+Thumbs.db
+
+# editors
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea

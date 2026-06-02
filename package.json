@@ -1,0 +1,26 @@
+{
+  "name": "aggregate",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Daily-scheduled bid discovery for CSM Mechanical — scrapes nola.gov, LADOTD, and Central Bidding; scores against CSM's scope; surfaces hits via dashboard and 6 AM CT email digest.",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "dev:dashboard": "pnpm --filter @aggregate/dashboard dev",
+    "dev:worker": "pnpm --filter @aggregate/worker dev",
+    "capture-auth": "pnpm --filter @aggregate/worker capture-auth",
+    "db:generate": "pnpm --filter @aggregate/db generate",
+    "db:push": "pnpm --filter @aggregate/db push",
+    "db:studio": "pnpm --filter @aggregate/db studio",
+    "format": "prettier --write \"**/*.{ts,tsx,js,mjs,json,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  }
+}
