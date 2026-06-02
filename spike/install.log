@@ -1,0 +1,91 @@
+Wrote to /home/user/c-and-m-construction/spike/package.json:
+
+{
+  "name": "spike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+EXIT:0
+npm-install-playwright EXIT:1
+
+added 2 packages, and audited 3 packages in 3s
+
+found 0 vulnerabilities
+npm-install-playwright EXIT:0
+Installing dependencies...
+Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Err:2 https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu noble InRelease
+  403  Forbidden [IP: 185.125.189.186 443]
+Get:3 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Err:4 https://ppa.launchpadcontent.net/ondrej/php/ubuntu noble InRelease
+  403  Forbidden [IP: 185.125.189.186 443]
+Get:5 https://download.docker.com/linux/ubuntu noble InRelease [48.5 kB]
+Get:6 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Get:7 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+Get:8 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [2125 kB]
+Get:9 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [48.4 kB]
+Get:10 https://download.docker.com/linux/ubuntu noble/stable amd64 Packages [67.7 kB]
+Get:11 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1513 kB]
+Get:12 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [3764 kB]
+Get:13 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [2511 kB]
+Get:14 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [2156 kB]
+Get:15 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [54.6 kB]
+Get:16 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [4013 kB]
+Get:17 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [35.9 kB]
+Get:18 http://archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Packages [671 B]
+Get:19 http://archive.ubuntu.com/ubuntu noble-backports/main amd64 Packages [49.0 kB]
+Reading package lists...
+E: Failed to fetch https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu/dists/noble/InRelease  403  Forbidden [IP: 185.125.189.186 443]
+E: The repository 'https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu noble InRelease' is no longer signed.
+E: Failed to fetch https://ppa.launchpadcontent.net/ondrej/php/ubuntu/dists/noble/InRelease  403  Forbidden [IP: 185.125.189.186 443]
+E: The repository 'https://ppa.launchpadcontent.net/ondrej/php/ubuntu noble InRelease' is no longer signed.
+Failed to install browsers
+Error: Installation process exited with code: 100
+playwright-install EXIT:1
+Downloading Chrome for Testing 148.0.7778.96 (playwright chromium v1223)[2m from https://cdn.playwright.dev/builds/cft/148.0.7778.96/linux64/chrome-linux64.zip[22m
+Error: Download failed: server returned code 403 body 'Host not in allowlist'. URL: https://cdn.playwright.dev/builds/cft/148.0.7778.96/linux64/chrome-linux64.zip
+    at IncomingMessage.handleError (/home/user/c-and-m-construction/spike/node_modules/playwright-core/lib/coreBundle.js:28089:23)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+Downloading Chrome for Testing 148.0.7778.96 (playwright chromium v1223)[2m from https://cdn.playwright.dev/builds/cft/148.0.7778.96/linux64/chrome-linux64.zip[22m
+Error: Download failed: server returned code 403 body 'Host not in allowlist'. URL: https://cdn.playwright.dev/builds/cft/148.0.7778.96/linux64/chrome-linux64.zip
+    at IncomingMessage.handleError (/home/user/c-and-m-construction/spike/node_modules/playwright-core/lib/coreBundle.js:28089:23)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+Downloading Chrome for Testing 148.0.7778.96 (playwright chromium v1223)[2m from https://cdn.playwright.dev/builds/cft/148.0.7778.96/linux64/chrome-linux64.zip[22m
+Error: Download failed: server returned code 403 body 'Host not in allowlist'. URL: https://cdn.playwright.dev/builds/cft/148.0.7778.96/linux64/chrome-linux64.zip
+    at IncomingMessage.handleError (/home/user/c-and-m-construction/spike/node_modules/playwright-core/lib/coreBundle.js:28089:23)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+Downloading Chrome for Testing 148.0.7778.96 (playwright chromium v1223)[2m from https://cdn.playwright.dev/builds/cft/148.0.7778.96/linux64/chrome-linux64.zip[22m
+Error: Download failed: server returned code 403 body 'Host not in allowlist'. URL: https://cdn.playwright.dev/builds/cft/148.0.7778.96/linux64/chrome-linux64.zip
+    at IncomingMessage.handleError (/home/user/c-and-m-construction/spike/node_modules/playwright-core/lib/coreBundle.js:28089:23)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+Downloading Chrome for Testing 148.0.7778.96 (playwright chromium v1223)[2m from https://cdn.playwright.dev/builds/cft/148.0.7778.96/linux64/chrome-linux64.zip[22m
+Error: Download failed: server returned code 403 body 'Host not in allowlist'. URL: https://cdn.playwright.dev/builds/cft/148.0.7778.96/linux64/chrome-linux64.zip
+    at IncomingMessage.handleError (/home/user/c-and-m-construction/spike/node_modules/playwright-core/lib/coreBundle.js:28089:23)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+Failed to install browsers
+Error: Failed to download Chrome for Testing 148.0.7778.96 (playwright chromium v1223), caused by
+Error: Download failure, code=1
+    at ChildProcess.<anonymous> (/home/user/c-and-m-construction/spike/node_modules/playwright-core/lib/coreBundle.js:27967:32)
+    at ChildProcess.emit (node:events:519:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+playwright-install-chromium-only EXIT:1

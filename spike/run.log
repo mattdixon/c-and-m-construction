@@ -1,0 +1,23 @@
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+browserType.launch: Executable doesn't exist at /opt/pw-browsers/chromium_headless_shell-1223/chrome-headless-shell-linux64/chrome-headless-shell
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     npx playwright install                                 ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+    at /home/user/c-and-m-construction/spike/screenshot.mjs:10:30
+    at /home/user/c-and-m-construction/spike/screenshot.mjs:23:3 {
+  name: 'Error'
+}
+
+Node.js v22.22.2
+screenshot EXIT:1
+--- Network egress test ---
+Host not in allowlist
+curl EXIT:0
